@@ -1,0 +1,34 @@
+package baitaptuan7_bai1;
+
+public class hienthi {
+    public static void main(String[] args) {
+        hinhtron tron= new hinhtron();
+        tron.xuatTen();
+        tron.nhapBanKinh();
+        tron.tinhChuVi();
+        tron.tinhDienTich();
+        tron.inChuVi();
+        tron.inDienTich();
+
+        hinhchunhat hcn=new hinhchunhat();
+        hcn.xuatTen();
+        hcn.nhapchieudai();
+        hcn.nhapchieurong();
+        hcn.tinhChuVi();
+        hcn.tinhDienTich();
+        hcn.inChuVi();
+        hcn.inDienTich();
+
+        hinhvuong vuong=new hinhvuong();
+        vuong.xuatTen();
+        vuong.nhapCanh();
+
+        hinhtru tru= new hinhtru();
+        tru.xuatTen();
+        tru.nhapChieuCao();
+        tru.tinhTheTich();
+        tru.inTheTich();
+
+
+    }
+}
